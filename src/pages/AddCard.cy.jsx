@@ -59,7 +59,7 @@ describe('<AddCard />', () => {
     cy.wait('@addCard')
     cy.get('.notice-success')
       .should('be.visible')
-      .and('have.text', 'Cartão cadastrado com sucesso!')
+      .and('have.text', 'Cartão cadastrado com suçeco!')
   })
 
   it('valida nome do títular com menos de 2 caracteres', () => {
