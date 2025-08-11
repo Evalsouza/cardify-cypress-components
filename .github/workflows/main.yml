@@ -29,8 +29,8 @@ jobs:
      if: always()
      uses: actions/upload-artifact@v4
      with:
-      name: componet-videos
-      path: cypress/vídeos
+      name: component-videos
+      path: cypress/videos
 
    - name: 📁 Salvar Screenshots (se falhar)
      if: failure()
