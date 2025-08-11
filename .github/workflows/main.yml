@@ -23,7 +23,7 @@ jobs:
      run: npm install
 
    - name: 🧪 Executar Testes de Componentes
-     run: npx cypress run --componente
+     run: npx cypress run --component
 
    - name: 📁 Salvar Vídeos (se houver)
      if: always()
